@@ -3,7 +3,11 @@
     <Project Path="Core/MovieApi.Domain/MovieApi.Domain.csproj" />
   </Folder>
   <Folder Name="/Frontends/" />
-  <Folder Name="/Infrastructure/" />
-  <Folder Name="/Presentation/" />
+  <Folder Name="/Infrastructure/">
+    <Project Path="Infrastructure/MovieApi.Persistence/MovieApi.Persistence.csproj" Id="db41c62e-e5bc-4002-b091-7160baf6cf52" />
+  </Folder>
+  <Folder Name="/Presentation/">
+    <Project Path="Presentation/MovieApi.WebApi/MovieApi.WebApi.csproj" Id="201224a8-c1e1-4c46-b728-ff21b4e9bc7e" />
+  </Folder>
   <Folder Name="/Requirements/" />
 </Solution>

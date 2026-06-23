@@ -13,7 +13,7 @@ namespace MovieApi.Domain.Entities
         public string Name { get; set; }
         public string Surname { get; set; }
         public string ImageUrl { get; set; }
-        public string? Overview { get; set; }
+        public string? Overview { get; set; }//soru işareti koydum çünkü bazı castların biyografisi olmayabilir null olabilir
         public string? Biograph { get; set; }
     }
 }
